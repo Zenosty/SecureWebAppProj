@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Welcome to my Games</title>
+	<title>User Test</title>
 	<style type="text/css">
 		::selection{ background-color: #E13300; color: white; }
 		::moz-selection{ background-color: #E13300; color: white; }
@@ -57,18 +57,17 @@
 </head>
 <body>
 <div id="container">
-	<h1>Welcome to my Games!</h1>
+	<h1>User Test</h1>
 	<div id="body">
-		<p>Here are my games</p>
+		<p>User details</p>
 	</div>
 	<table>
 		<col width="100">
 		<col width="100">
 		<col width="200">
 		<tr>
-			<th align="left">ID</th>
-			<th align="left">Name</th>
-			<th align="left">Description</th>
+			<th align="left">User Name</th>
+			<th align="left">User Number</th>
 		</tr>
 		<?php foreach($customer_info as $row){?>
 			<tr>

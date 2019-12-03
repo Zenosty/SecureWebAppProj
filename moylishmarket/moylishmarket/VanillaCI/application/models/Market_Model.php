@@ -5,7 +5,7 @@ class Market_Model extends CI_Model {
         $this->load->database();
     }
     function get_all_games() {
-        $this->db->select("customerNumber,customerName");
+        $this->db->select("customerNumber,customerName, contactLastName, contactFirstName");
         $this->db->from('customers');
         $query = $this->db->get();
         return $query->result();
